@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NotesApp</string>
+    <string name="address">Address</string>
+    <string name="phonNo">Phone No.</string>
+    <string name="delete">Delete</string>
+    <string name="name">Name</string>
+    <string name="title">Title</string>
+    <string name="text">Text</string>
+    <string name="enter_text">Enter Text</string>
+</resources>
