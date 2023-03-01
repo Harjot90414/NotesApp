@@ -16,7 +16,9 @@ abstract class UserDatabase : RoomDatabase() {
 
     //static
     companion object{
-        private var userDatabase : UserDatabase? = null
+        var userDatabase : UserDatabase? = null
+
+        @Synchronized
         fun getInstance( context: Context): UserDatabase{
             if(userDatabase == null){
                 userDatabase = Room.databaseBuilder(
